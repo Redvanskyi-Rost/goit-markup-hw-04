@@ -293,6 +293,16 @@ img {
   width: 270px;
 }
 
+.advantage-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: var(--button-bg-color);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
 .advantage-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -300,7 +310,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-top: 30px; */
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 

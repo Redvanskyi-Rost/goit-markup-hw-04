@@ -79,6 +79,7 @@ img {
 /* -----------------------------------------------LOGO-------------------------------------------------- */
 
 .header-logo {
+  color: var(--accent-color);
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
@@ -101,7 +102,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.header-logo {
+.footer-logo {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -120,8 +121,13 @@ img {
   color: var(--accent-color);
 }
 
-.logo-accent:hover,
-.logo-accent:focus {
+.header-logo:hover .logo-accent,
+.header-logo:focus .logo-accent {
+  color: var(--accent-color);
+}
+
+.footer-logo:hover .logo-accent,
+.footer-logo:focus .logo-accent {
   color: var(--accent-color);
 }
 

@@ -82,33 +82,23 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .header .logo-accent {
   color: var(--primary-text-color);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer .logo-accent {
   color: var(--primary-white-color);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .header-logo {
@@ -131,8 +121,12 @@ img {
 }
 
 .logo-accent:hover,
-.logo-accent:hover {
+.logo-accent:focus {
   color: var(--accent-color);
+}
+
+.logo-accent:focus {
+  color: tomato;
 }
 
 /* -----------------------------------------------SITE-NAV-------------------------------------------------- */
@@ -179,6 +173,7 @@ img {
 }
 
 .header-mail {
+  display: inline-flex;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -189,7 +184,24 @@ img {
   margin-right: 50px;
 }
 
+.mail-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+  align-self: center;
+}
+
+.header-mail:hover .mail-icon,
+.header-mail:focus .mail-icon {
+  fill: var(--accent-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
 .header-tel {
+  display: inline-flex;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -199,9 +211,15 @@ img {
   padding-top: 32px;
 }
 
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
+.mob-icon {
+  margin-right: 10px;
+  fill: var(--secondary-text-color);
+  align-self: center;
+}
+
+.header-tel:hover .mob-icon,
+.header-tel:focus .mob-icon {
+  fill: var(--accent-color);
 }
 
 .header-tel:hover,
@@ -273,6 +291,14 @@ img {
   width: 270px;
 }
 
+/* .advantage-item::before {
+  outline: 1px solid tomato;
+  display: block;
+  content: '';
+  height: 120px;
+  background-color: var(--button-bg-color);
+} */
+
 .advantage-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -280,7 +306,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  /* margin-top: 30px; */
   margin-bottom: 10px;
 }
 

@@ -131,10 +131,6 @@ img {
   color: var(--accent-color);
 }
 
-.logo-accent:focus {
-  color: tomato;
-}
-
 /* -----------------------------------------------SITE-NAV-------------------------------------------------- */
 
 .header {
@@ -296,14 +292,6 @@ img {
 .advantage-item {
   width: 270px;
 }
-
-/* .advantage-item::before {
-  outline: 1px solid tomato;
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: var(--button-bg-color);
-} */
 
 .advantage-title {
   color: var(--primary-text-color);

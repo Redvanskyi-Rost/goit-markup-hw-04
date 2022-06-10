@@ -623,7 +623,13 @@ img {
 
 /* -----------------------------------------------FOOTER SOCIAL------------------------------------------------- */
 
+.footer-blocks {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-soc {
+  width: 206px;
 }
 
 .footer-soc-title {
